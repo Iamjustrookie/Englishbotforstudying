@@ -1,9 +1,0 @@
-database:
-  host: '127.0.0.1'
-  user: 'postgres'
-  password: '12345678'
-  db_name: 'db_users_info'
-bot:
-  token: '8422139149:AAFpxHLqBTBYcbRVKu5JUHJCnwTfdXryjRc'
-user_id: 
-  user_idlink: '1471070398'
