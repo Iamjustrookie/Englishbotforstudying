@@ -36,13 +36,7 @@ def get_start_keyboard(): # создаем reply клавиатуру
 async def start_command(message: Message):
     await message.answer('Привет! Я бот который поможет тебе в изучении английского.\n Вы можете отправить боту сообщение "/start" и обновить бота, а также вы можете вернуться в меню, если напишишете "/menu".\n Теперь выберите режим работы с ботом:', reply_markup=get_start_keyboard())
 
-@dp.message(Command('id'))
-async def id_command(message: Message):
-    user = message.from_user.username
-    if user not in users_info:
-        users_info.add(str(user))
-        await bot.send_message(chat_id=user_link, text=f'Пользователь {user} добавлен.' )
-        await message.answer(f'Привет, {user}!')
+
 
 @dp.message(Command('menu'))
 async def function_menu(message: types.Message):
