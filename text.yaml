@@ -1,9 +1,11 @@
 database:
-  host: '127.0.0.1'
-  user: 'postgres'
-  password: '12345678'
-  db_name: 'db_users_info'
+  host: 'your_host' # вставте хост
+  user: 'your_user' # вставте свой user
+  password: 'password_user' # вставте свой пароль
+  db_name: 'db_name' # вставте название бд
 bot:
-  token: '8422139149:AAFpxHLqBTBYcbRVKu5JUHJCnwTfdXryjRc'
+  token: 'token_bot' # вставте токен бота
 user_id: 
-  user_idlink: '1471070398'
+  user_idlink: 'id_user' # вставте айди юзера
+AI:
+  AI_TOKEN: 'token' # вставте токен для AI 
